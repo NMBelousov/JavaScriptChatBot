@@ -59,7 +59,7 @@ function MathRandom(Max) {
 const MessageDB = () => {
 
 	const xhr = new XMLHttpRequest();
-	xhr.open("GET", "JS/Message.json", true);
+	xhr.open("GET", "./messages.json", true);
 	xhr.send();
 
 	xhr.onreadystatechange = function() {
